@@ -1,0 +1,286 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* food card css  */
+.head {
+  margin-bottom: 20px;
+}
+.fm-container {
+  width: 540px;
+  background: rgba(66, 69, 66, 0.1);
+  border-radius: 12px;
+  margin: 0px auto !important;
+  padding: 10px 10px;
+}
+
+.fm-white-bg {
+  width: 510px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 10px 10px;
+}
+
+.fm-bgimage {
+  background-image: url("images/fm1.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 330px;
+  margin: 0px auto !important;
+  border-radius: 12px;
+}
+
+.Promoted-bg {
+  background: rgba(66, 69, 66, 0.8);
+  width: 100px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  border-radius: 3px;
+}
+
+.Promoted {
+  display: flex;
+  position: relative;
+  top: 200px;
+}
+
+.Promoted-p1 {
+  background-color: #266fef;
+  border-radius: 6px;
+  margin-right: 260px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  height: 30px;
+}
+
+.Promoted-p1-para {
+  position: relative;
+  top: -14px;
+  color: #ffffff;
+}
+
+.Promoted-p2 {
+  background-color: #f7f9f9;
+  border-radius: 6px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  height: 30px;
+}
+
+.Promoted-p2-para {
+  position: relative;
+  top: -14px;
+  color: #000;
+}
+
+.fm-heading {
+  width: 96%;
+  margin: 0px auto !important;
+}
+
+.fmh-para1 {
+  font-size: 21px;
+}
+
+.fmh-para2 {
+  font-size: 16px;
+}
+
+.grey-b-border {
+  border-bottom: 1px solid #cfcdcd;
+}
+
+.fm-footer {
+  display: flex;
+  width: 96%;
+  margin: 0px auto !important;
+}
+
+.ms-logo {
+  padding-top: 43px;
+  margin-right: 20px;
+}
+.ms {
+  position: relative;
+}
+
+.ms-para {
+  font-size: 21px;
+  color: #818181;
+}
+
+/*bali css  */
+
+.bali-container {
+  width: 800px;
+  margin: 0px auto !important;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.bali {
+  background-image: url("images/bg-3.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 533px;
+  margin: 0px auto !important;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.b-innercontainer {
+  padding: 5px;
+}
+.b-head {
+  position: relative;
+  top: 250px;
+  left: 100px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #f4f4f1;
+}
+
+.b-subhead {
+  width: 100%;
+  font-size: 17px;
+  font-weight: normal;
+  color: #f4f4f1;
+  position: relative;
+  text-align: center;
+  top: 230px;
+  left: 0px;
+  right: 0px;
+}
+.b-button {
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  top: 230px;
+  left: 330px;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* zomato css */
+.zomato-container {
+  margin: 0px auto !important;
+  width: 900px;
+}
+.zomato {
+  background-image: url("images/bg-image.avif");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.z-head {
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 900;
+  font-style: italic;
+  position: relative;
+  top: 38px;
+  right: 380px;
+  float: right;
+}
+.z-subhead {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: normal;
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+.search-bar {
+  display: flex;
+  width: 777px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+select {
+  border: none;
+  outline: none;
+  position: relative;
+  top: -3px;
+  width: 200px;
+}
+
+form {
+  width: 235px;
+  display: inline-block;
+}
+
+.z-space {
+  background-color: #b3b3b3;
+  width: 3px;
+  margin-right: 10px;
+}
+
+.z-input {
+  border: none;
+  outline: none;
+  position: relative;
+  top: -5px;
+  width: 495px;
+}
+.z-input:active {
+  outline: none !important ;
+  border: none;
+}
+
+/* profile css */
+
+.profile-container {
+  width: 530px;
+  background-color: #b3b3b3;
+  padding: 20px;
+  margin: 0px auto !important;
+}
+
+.profile {
+  width: 500px;
+  margin: 0px auto !important;
+  background-color: #ffffff;
+  position: relative;
+  border: 1px solid #424242;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+.profile-bg {
+  width: 100%;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+.user {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  position: relative;
+  top: -50px;
+  left: 180px;
+  border: 3px solid #ffffff;
+}
+
+.profile-name {
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+.profile-name,
+p:nth-child(2) {
+  margin-top: -20px;
+}
